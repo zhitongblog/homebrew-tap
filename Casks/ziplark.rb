@@ -1,6 +1,6 @@
 cask "ziplark" do
-  version "0.1.0"
-  sha256 "707ccab771a0b4b0cf11046e63b25d27a467a3bb197fcb493844218c25810f72"
+  version "0.2.0"
+  sha256 "360125ba8ef7537d2fae649e7dcb73991698463cde0e385ae5c5856d22b53584"
 
   url "https://github.com/zhitongblog/ziplark/releases/download/v#{version}/Ziplark-v#{version}-macos-universal.dmg",
       verified: "github.com/zhitongblog/ziplark/"
