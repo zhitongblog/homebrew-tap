@@ -2,7 +2,7 @@ class Ziplark < Formula
   desc "Free, fast, cross-platform archiver (ZIP/RAR/7z/tar) — CLI + MCP server"
   homepage "https://ziplark.com/"
   version "0.2.0"
-  license "GPL-3.0-only"
+  license "MIT"
 
   on_macos do
     on_arm do
