@@ -1,6 +1,6 @@
 cask "unflick" do
-  version "0.14.1"
-  sha256 "458385e66511f1233659f8e9c151f78638b54c5c038498ffc6233bf77bef3327"
+  version "0.14.2"
+  sha256 "ce2f8e92fd2f9ffa17e217bd6184e9218fcb4f1f0040a5bb912c81db572990bf"
 
   url "https://github.com/zhitongblog/unflick/releases/download/v#{version}/unflick_#{version}_universal.dmg"
   name "unflick"
