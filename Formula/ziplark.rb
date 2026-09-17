@@ -1,24 +1,24 @@
 class Ziplark < Formula
   desc "Free, fast, cross-platform archiver (ZIP/RAR/7z/tar) — CLI + MCP server"
   homepage "https://ziplark.com/"
-  version "0.2.2"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zhitongblog/ziplark/releases/download/v0.2.2/ziplark-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "4d0dcf41e37509871d5488bb4740fe52b56b6afaa732bcd6aac0e2a40b745644"
+      url "https://github.com/zhitongblog/ziplark/releases/download/v0.3.0/ziplark-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c42e31bc29585b98fb7a457cf1a011a361fc5b86fac02fe0f25d54c4a3708108"
     end
     on_intel do
-      url "https://github.com/zhitongblog/ziplark/releases/download/v0.2.2/ziplark-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "e79473b666a613820bf23d017ce4268e2e4ea5618bead60340e96f96493a7ae8"
+      url "https://github.com/zhitongblog/ziplark/releases/download/v0.3.0/ziplark-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b4bf45db076db2e2015fc54a85cbef1195c83e214fcbd843c38b7820136dc550"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/zhitongblog/ziplark/releases/download/v0.2.2/ziplark-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a951307191398ed6e6cbdf017fdf11051520dc81d82efc3731f55bf5803fa33d"
+      url "https://github.com/zhitongblog/ziplark/releases/download/v0.3.0/ziplark-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1e9c72ccfc0923fde4958106d02040628d8cf36f27898c28629524fb3a85f50e"
     end
   end
 
