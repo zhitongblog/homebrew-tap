@@ -1,6 +1,6 @@
 cask "unflick" do
-  version "0.14.2"
-  sha256 "ce2f8e92fd2f9ffa17e217bd6184e9218fcb4f1f0040a5bb912c81db572990bf"
+  version "0.15.0"
+  sha256 "c82ddfc9a35e6c1074de79dbd30a02f0040bbf8b81b2d485dc9ec1b6d4f28c4d"
 
   url "https://github.com/zhitongblog/unflick/releases/download/v#{version}/unflick_#{version}_universal.dmg"
   name "unflick"
@@ -15,9 +15,8 @@ cask "unflick" do
   # Thumbnails, clip extraction, cover art and whisper's input all shell out
   # to ffmpeg. Everything else works without it; those four do not.
   depends_on formula: "ffmpeg"
-  # The download is 16 MB because it carries no player: libmpv is loaded at
-  # runtime, from the system. Without mpv the window opens and nothing plays.
-  depends_on formula: "mpv"
+  # No mpv: since 0.15 the app carries its own libmpv, built with libdvdnav
+  # so DVDs play — Homebrew's has none.
   depends_on macos: :big_sur
 
   app "unflick.app"
