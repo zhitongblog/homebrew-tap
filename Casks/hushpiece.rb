@@ -1,6 +1,6 @@
 cask "hushpiece" do
-  version "1.0.0"
-  sha256 "b4d1826240ae3cfbf55e747b94ea37abe893eb2edcee3858efc70b94e45003bf"
+  version "1.1.0"
+  sha256 "4e97ca811d99596391d4496fe8522e99a19f8d0f5731554c60204cc6e6d159d9"
 
   url "https://github.com/zhitongblog/hushpiece/releases/download/v#{version}/Hushpiece-#{version}.dmg"
   name "Hushpiece"
