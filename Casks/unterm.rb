@@ -1,6 +1,6 @@
 cask "unterm" do
-  version "0.71.20"
-  sha256 "f7d179a4b44af040c21b2eeb582b8435c069168db0ef5d256c9650bd42e5f55a"
+  version "0.71.21"
+  sha256 "2680f7e0939ca9d350727c3cb8076365d1f62d65bbc1493f81b7b1270d245865"
 
   url "https://github.com/zhitongblog/unterm/releases/download/v#{version}/Unterm-macos-v#{version}.dmg"
   name "Unterm"
