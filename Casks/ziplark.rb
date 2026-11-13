@@ -1,11 +1,11 @@
 cask "ziplark" do
-  version "0.3.0"
-  sha256 "3282425f3e2376d68c38f1dc3ff9bea59a986a472b972f4e7498fa2c78bf87f4"
+  version "0.5.0"
+  sha256 "264648a5e621f13ec142172e32cb2d359d385ffdc7201c487b0a01dfc19fe04a"
 
   url "https://github.com/zhitongblog/ziplark/releases/download/v#{version}/Ziplark-v#{version}-macos-universal.dmg",
       verified: "github.com/zhitongblog/ziplark/"
   name "Ziplark"
-  desc "Free, fast, cross-platform archiver (ZIP/RAR/7z/tar)"
+  desc "Free, fast, cross-platform archiver (ZIP/RAR/7z/tar/ISO/DEB/RPM/CAB)"
   homepage "https://ziplark.com/"
 
   app "Ziplark.app"
