@@ -1,12 +1,16 @@
 cask "ziplark" do
-  version "0.5.0"
-  sha256 "264648a5e621f13ec142172e32cb2d359d385ffdc7201c487b0a01dfc19fe04a"
+  version "0.6.0"
+  sha256 "b54ef83d43ad0aabd13fbad65a51991c61d2749e9cc46c824b465675698dc4c6"
 
-  url "https://github.com/zhitongblog/ziplark/releases/download/v#{version}/Ziplark-v#{version}-macos-universal.dmg",
-      verified: "github.com/zhitongblog/ziplark/"
+  url "https://github.com/zhitongblog/ziplark/releases/download/v#{version}/Ziplark-v#{version}-macos-universal.dmg"
   name "Ziplark"
-  desc "Free, fast, cross-platform archiver (ZIP/RAR/7z/tar/ISO/DEB/RPM/CAB)"
-  homepage "https://ziplark.com/"
+  desc "Free, fast, cross-platform archiver (ZIP, RAR, 7z, tar, zstd, lz4, ISO, PKG)"
+  homepage "https://ziplark.com"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   app "Ziplark.app"
 
@@ -14,7 +18,5 @@ cask "ziplark" do
     "~/Library/Application Support/app.ziplark.desktop",
     "~/Library/Caches/app.ziplark.desktop",
     "~/Library/Preferences/app.ziplark.desktop.plist",
-    "~/Library/Saved Application State/app.ziplark.desktop.savedState",
-    "~/Library/WebKit/app.ziplark.desktop",
   ]
 end
